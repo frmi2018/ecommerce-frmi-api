@@ -2,6 +2,9 @@ const express = require("express");
 
 require("dotenv").config();
 
+// import routes
+const userRoutes = require("./routes/user");
+
 // express app
 const app = express();
 
@@ -16,10 +19,8 @@ async function main() {
     .then(() => console.log("DB CONNECTED"));
 }
 
-// routes
-app.get("/", (req, res) => {
-  res.send("hello from node");
-});
+// routes middleware
+app.use("/api/v1", userRoutes);
 
 app.all("*", (req, res) => {
   res.status(404).json({ message: "Page not Found" });
