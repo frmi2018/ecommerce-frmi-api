@@ -20,7 +20,7 @@ async function main() {
 }
 
 // routes middleware
-app.use("/api/v1", userRoutes);
+app.use("/api", userRoutes);
 
 app.all("*", (req, res) => {
   res.status(404).json({ message: "Page not Found" });
