@@ -64,9 +64,15 @@ Création du répertoire routes + route user.js
 Création du répertoire controllers + controller user.js  
 ✅commit
 
-### Inscription / connection
+🔵 Inscription / connection
 
-Création du répertoire models + Schema user.js  
+Création du répertoire models + Schema user.js ([Aide](https://mongoosejs.com/docs/api/schema.html#schema_Schema))  
+✅commit
+
+Ajout Virtual fields password
+& methods ([Aide](https://mongoosejs.com/docs/api/schema.html#schema_Schema-virtual))  
+Packages : uuid ([Aide](https://www.npmjs.com/package/uuid)) /
+crypto ([Aide](https://nodejs.org/api/crypto.html))  
 ✅commit
 
 ## 3️⃣ Frontend
