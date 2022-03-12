@@ -1,4 +1,7 @@
 const express = require("express");
+const morgan = require("morgan");
+const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
 
 require("dotenv").config();
 
@@ -18,6 +21,11 @@ async function main() {
     .connect(process.env.MONGODB_URI)
     .then(() => console.log("DB CONNECTED"));
 }
+
+// middlewares
+app.use(morgan("dev"));
+app.use(bodyParser.json());
+app.use(cookieParser());
 
 // routes middleware
 app.use("/api", userRoutes);

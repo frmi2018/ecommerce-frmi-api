@@ -1,5 +1,13 @@
 # 🛣️ Road map MERN project - 2021 - FRMI
 
+0️⃣ Prérequis ( partie client )  
+1️⃣ Mise en place de la partie backend du projet  
+2️⃣ Backend ( API )  
+3️⃣ Frontend  
+4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣0️⃣
+
+#
+
 ## 0️⃣ Prérequis ( partie client )
 
 Créer un email google  
@@ -53,28 +61,34 @@ Mise en place du backend sur Heroku (optionel)
 Créer le serveur Express (app.js)  
 ✅Démarrer le serveur  
 ✅Tester la route / avec postman (optionel)  
-✅commit
+✅commit 01
 
 Connection à la base de données (app.js)  
-✅commit
+✅commit 02
 
 Création du répertoire routes + route user.js  
-✅commit
+✅commit 03
 
 Création du répertoire controllers + controller user.js  
-✅commit
+✅commit 04
 
-🔵 Inscription / connection
+### 2️⃣1️⃣ Inscription / connection
 
 Création du répertoire models + Schema user.js ([Aide](https://mongoosejs.com/docs/api/schema.html#schema_Schema))  
-✅commit
+✅commit 05
 
 Ajout Virtual fields password
 & methods ([Aide](https://mongoosejs.com/docs/api/schema.html#schema_Schema-virtual))  
-Packages : uuid ([Aide](https://www.npmjs.com/package/uuid)) /
+📦Infos packages :  
+uuid ([Aide](https://www.npmjs.com/package/uuid))
 crypto ([Aide](https://nodejs.org/api/crypto.html))  
-✅commit
+✅commit 06
+
+Création de la route signup + test avec postman
+📦Infos packages :  
+morgan ([Aide](https://www.npmjs.com/package/morgan))
+body-parser ([Aide](https://www.npmjs.com/package/body-parser))
+cookie-parser ([Aide](https://www.npmjs.com/package/cookie-parser))
+✅commit 07
 
 ## 3️⃣ Frontend
-
-4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣0️⃣
