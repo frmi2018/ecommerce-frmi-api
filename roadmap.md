@@ -64,6 +64,11 @@ Création du répertoire routes + route user.js
 Création du répertoire controllers + controller user.js  
 ✅commit
 
+### Inscription / connection
+
+Création du répertoire models + Schema user.js  
+✅commit
+
 ## 3️⃣ Frontend
 
 4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣0️⃣
