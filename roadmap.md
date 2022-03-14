@@ -89,6 +89,11 @@ Création de la route signup + test avec postman
 morgan ([Aide](https://www.npmjs.com/package/morgan))
 body-parser ([Aide](https://www.npmjs.com/package/body-parser))
 cookie-parser ([Aide](https://www.npmjs.com/package/cookie-parser))
+✅commit
+
+Ajout fonction pour message erreur mongodb
+📦Infos packages :  
+express-validator ([Aide](https://www.npmjs.com/package/morgan))
 ✅commit 07
 
 ## 3️⃣ Frontend
