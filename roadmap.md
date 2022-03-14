@@ -92,8 +92,11 @@ cookie-parser ([Aide](https://www.npmjs.com/package/cookie-parser))
 ✅commit
 
 Ajout fonction pour message erreur mongodb
-📦Infos packages :  
-express-validator ([Aide](https://www.npmjs.com/package/morgan))
 ✅commit 07
+
+Contrôler name/email/password saisie avec express-validator
+📦Infos packages :  
+express-validator ([Aide](https://www.npmjs.com/package/express-validator))
+✅commit 08
 
 ## 3️⃣ Frontend
