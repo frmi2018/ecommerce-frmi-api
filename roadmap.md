@@ -106,6 +106,7 @@ jsonwebtoken ([Aide](https://www.npmjs.com/package/jsonwebtoken))
 ✅commit 08
 
 Ajout fonction signout
+Ajout d'une route test accessible uniquement si connecté
 ✅commit 09
 
 ## 3️⃣ Frontend
