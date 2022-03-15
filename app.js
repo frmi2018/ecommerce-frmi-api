@@ -9,6 +9,7 @@ require("dotenv").config();
 // import routes
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/user");
+const categoryRoutes = require("./routes/category");
 
 // express app
 const app = express();
@@ -33,6 +34,7 @@ app.use(expressValidator());
 // routes middleware
 app.use("/api", authRoutes);
 app.use("/api", userRoutes);
+app.use("/api", categoryRoutes);
 
 app.all("*", (req, res) => {
   res.status(404).json({ message: "Page not Found" });
