@@ -97,6 +97,12 @@ Ajout fonction pour message erreur mongodb
 Contrôler name/email/password saisie avec express-validator
 📦Infos packages :  
 express-validator ([Aide](https://www.npmjs.com/package/express-validator))
+✅commit
+
+Ajout fonction signin + token + test avec postman
+📦Infos packages :  
+express-jwt ([Aide](https://www.npmjs.com/package/express-jwt))
+jsonwebtoken ([Aide](https://www.npmjs.com/package/jsonwebtoken))
 ✅commit 08
 
 ## 3️⃣ Frontend
