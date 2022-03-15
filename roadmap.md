@@ -109,4 +109,7 @@ Ajout fonction signout
 Ajout d'une route test accessible uniquement si connecté
 ✅commit 09
 
+Ajout route pour accéder aux infos d'un utilisateur avec son id
+✅commit 10
+
 ## 3️⃣ Frontend
