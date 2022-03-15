@@ -112,4 +112,7 @@ Ajout d'une route test accessible uniquement si connecté
 Ajout route pour accéder aux infos d'un utilisateur avec son id
 ✅commit 10
 
+Protéger l'accès aux routes
+✅commit 11-Auth and admin middlewares
+
 ## 3️⃣ Frontend

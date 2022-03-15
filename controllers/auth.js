@@ -8,8 +8,10 @@ exports.signup = (req, res) => {
   const user = new User(req.body);
   user.save((err, user) => {
     if (err) {
-      // console.log(err);
-      return res.status(400).json({ err: errorHandler(err) });
+      return res.status(400).json({
+        // error: errorHandler(err)
+        error: "Email is taken",
+      });
     }
     user.salt = undefined;
     user.hashed_password = undefined;
@@ -32,7 +34,7 @@ exports.signin = (req, res) => {
     // create authenticate method in user model
     if (!user.authenticate(password)) {
       return res.status(401).json({
-        error: "Email and password don't match",
+        error: "Email and password dont match",
       });
     }
     // generate a signed token with user id and secret
@@ -55,3 +57,22 @@ exports.requireSignin = expressJwt({
   algorithms: ["HS256"], // added later
   userProperty: "auth",
 });
+
+exports.isAuth = (req, res, next) => {
+  let user = req.profile && req.auth && req.profile._id == req.auth._id;
+  if (!user) {
+    return res.status(403).json({
+      error: "Access denied",
+    });
+  }
+  next();
+};
+
+exports.isAdmin = (req, res, next) => {
+  if (req.profile.role === 0) {
+    return res.status(403).json({
+      error: "Admin resourse! Access denied",
+    });
+  }
+  next();
+};
