@@ -105,4 +105,7 @@ express-jwt ([Aide](https://www.npmjs.com/package/express-jwt))
 jsonwebtoken ([Aide](https://www.npmjs.com/package/jsonwebtoken))
 ✅commit 08
 
+Ajout fonction signout
+✅commit 09
+
 ## 3️⃣ Frontend
