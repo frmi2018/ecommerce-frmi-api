@@ -106,13 +106,20 @@ jsonwebtoken ([Aide](https://www.npmjs.com/package/jsonwebtoken))
 ✅commit 08
 
 Ajout fonction signout
-Ajout d'une route test accessible uniquement si connecté
+Ajout middlewares : User connecté ?
 ✅commit 09
 
-Ajout route pour accéder aux infos d'un utilisateur avec son id
+Ajout route pour tester l'accès aux routes
 ✅commit 10
 
 Protéger l'accès aux routes
+Ajout middlewares : User authentifié / User admin ?
 ✅commit 11-Auth and admin middlewares
+
+Ajout model category
+✅commit 12-Category model route and controller
+
+Création de categories par admin
+✅commit 13-Creating category by admin
 
 ## 3️⃣ Frontend
