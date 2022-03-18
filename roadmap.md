@@ -122,4 +122,7 @@ Ajout model category
 Création de categories par admin
 ✅commit 13-Creating category by admin
 
+Ajout model product
+✅commit 14-Product model
+
 ## 3️⃣ Frontend
