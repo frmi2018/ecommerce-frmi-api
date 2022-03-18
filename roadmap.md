@@ -137,4 +137,7 @@ js ([Aide](https://www.npmjs.com/package/jsonwebtoken))
 lodash ([Aide](https://www.npmjs.com/package/lodash))  
 ✅Create product with file upload
 
+Vérifier les données envoyées sur la route product
+✅commit "product validation"
+
 ## 3️⃣ Frontend
