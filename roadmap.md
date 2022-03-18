@@ -74,55 +74,67 @@ Création du répertoire controllers + controller user.js
 
 ### 2️⃣1️⃣ Inscription / connection
 
-Création du répertoire models + Schema user.js ([Aide](https://mongoosejs.com/docs/api/schema.html#schema_Schema))  
+Création du répertoire models
+Création du modèle user ([Aide](https://mongoosejs.com/docs/api/schema.html#schema_Schema))  
 ✅commit 05
 
 Ajout Virtual fields password
 & methods ([Aide](https://mongoosejs.com/docs/api/schema.html#schema_Schema-virtual))  
 📦Infos packages :  
-uuid ([Aide](https://www.npmjs.com/package/uuid))
+uuid ([Aide](https://www.npmjs.com/package/uuid))  
 crypto ([Aide](https://nodejs.org/api/crypto.html))  
 ✅commit 06
 
-Création de la route signup + test avec postman
+Création de la route signup + test avec postman  
 📦Infos packages :  
-morgan ([Aide](https://www.npmjs.com/package/morgan))
-body-parser ([Aide](https://www.npmjs.com/package/body-parser))
-cookie-parser ([Aide](https://www.npmjs.com/package/cookie-parser))
+morgan ([Aide](https://www.npmjs.com/package/morgan))  
+body-parser ([Aide](https://www.npmjs.com/package/body-parser))  
+cookie-parser ([Aide](https://www.npmjs.com/package/cookie-parser))  
 ✅commit
 
-Ajout fonction pour message erreur mongodb
+Ajout fonction pour message erreur mongodb  
 ✅commit 07
 
-Contrôler name/email/password saisie avec express-validator
+Contrôler name/email/password saisie avec express-validator  
 📦Infos packages :  
-express-validator ([Aide](https://www.npmjs.com/package/express-validator))
+express-validator ([Aide](https://www.npmjs.com/package/express-validator))  
 ✅commit
 
-Ajout fonction signin + token + test avec postman
+Ajout fonction signin + token + test avec postman  
 📦Infos packages :  
-express-jwt ([Aide](https://www.npmjs.com/package/express-jwt))
-jsonwebtoken ([Aide](https://www.npmjs.com/package/jsonwebtoken))
+express-jwt ([Aide](https://www.npmjs.com/package/express-jwt))  
+jsonwebtoken ([Aide](https://www.npmjs.com/package/jsonwebtoken))  
 ✅commit 08
 
-Ajout fonction signout
-Ajout middlewares : User connecté ?
+Ajout fonction signout  
+Ajout middlewares : User connecté ?  
 ✅commit 09
 
-Ajout route pour tester l'accès aux routes
+### 2️⃣2️⃣ Protection des routes
+
+Ajout une route pour tester l'accès aux routes  
 ✅commit 10
 
-Protéger l'accès aux routes
-Ajout middlewares : User authentifié / User admin ?
+Protéger l'accès aux routes  
+Ajout middlewares : User authentifié / User admin ?  
 ✅commit 11-Auth and admin middlewares
 
-Ajout model category
+### 2️⃣3️⃣ Catégories / produits
+
+Création d'un modèle catégorie  
 ✅commit 12-Category model route and controller
 
-Création de categories par admin
+Ajouter route pour créer des catégories par admin  
 ✅commit 13-Creating category by admin
 
-Ajout model product
+Création d'un modèle product  
 ✅commit 14-Product model
+
+Ajouter route pour créer des produits par admin  
+📦Infos packages :  
+formidable ([Aide](https://www.npmjs.com/package/formidable))  
+js ([Aide](https://www.npmjs.com/package/jsonwebtoken))  
+lodash ([Aide](https://www.npmjs.com/package/lodash))  
+✅Create product with file upload
 
 ## 3️⃣ Frontend
