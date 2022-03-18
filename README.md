@@ -35,3 +35,29 @@ Lorem
 - déconnection  
   api/user/signout  
   Method : GET
+
+## 🟨 Category routes
+
+- créer une catégorie  
+  api/category/create/:userId  
+  Method : POST
+
+| Body   | Type   | Required |
+| ------ | ------ | -------- |
+| `name` | string | Yes      |
+
+## 🟨 Product routes
+
+- créer un produit dans une catégorie  
+  api/product/create/:userId  
+  Method : POST
+
+| Body          | Type     | Required |
+| ------------- | -------- | -------- |
+| `name`        | string   | Yes      |
+| `description` | string   | Yes      |
+| `price`       | number   | Yes      |
+| `category`    | ObjectId | Yes      |
+| `shipping`    | boolean  | No       |
+| `quantity`    | number   | No       |
+| `photo`       | string   | No       |

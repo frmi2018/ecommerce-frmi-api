@@ -6,7 +6,8 @@ const { errorHandler } = require("../helpers/dbErrorHandler");
 
 exports.create = (req, res) => {
   let form = new formidable.IncomingForm();
-  form.keepExtensions = trueform.parse(req, (err, fields, files) => {
+  form.keepExtensions = true;
+  form.parse(req, (err, fields, files) => {
     if (err) {
       return res.status(400).json({
         error: "Image could not be uploaded",
@@ -27,6 +28,7 @@ exports.create = (req, res) => {
 
     product.save((err, result) => {
       if (err) {
+        console.log("PRODUCT CREATE ERROR ", err);
         return res.status(400).json({
           error: errorHandler(err),
         });

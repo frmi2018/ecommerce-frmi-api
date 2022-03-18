@@ -32,7 +32,7 @@ const productSchema = new mongoose.Schema(
       data: Buffer,
       contentType: String,
     },
-    Shipping: {
+    shipping: {
       required: false,
       type: Boolean,
     },
@@ -40,4 +40,4 @@ const productSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("User", productSchema);
+module.exports = mongoose.model("Product", productSchema);
