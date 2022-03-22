@@ -119,7 +119,7 @@ Protéger l'accès aux routes
 Ajout middlewares : User authentifié / User admin ?  
 ✅commit 11-Auth and admin middlewares
 
-### 2️⃣3️⃣ Catégories
+### 2️⃣3️⃣ Catégories C
 
 Création d'un modèle catégorie  
 ✅commit 12-Category model route and controller
@@ -150,5 +150,10 @@ Supprimer un produit de la bdd
 
 Mise à jour d'un produit dans la bdd
 ✅commit "Product update"
+
+### 2️⃣3️⃣ Catégories RUD
+
+Chercher une catégorie dans la bdd
+✅commit "Category by id and single category"
 
 ## 3️⃣ Frontend

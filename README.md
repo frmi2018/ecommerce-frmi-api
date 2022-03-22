@@ -46,9 +46,13 @@ Lorem
 | ------ | ------ | -------- |
 | `name` | string | Yes      |
 
+- chercher une catégorie dans la BDD  
+  api/category/:categoryId  
+  Method : GET
+
 ## 🟨 Product routes
 
-- créer un produit dans une catégorie  
+- créer un produit  
   api/product/create/:userId  
   Method : POST
 
