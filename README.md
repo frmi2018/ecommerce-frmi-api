@@ -61,3 +61,12 @@ Lorem
 | `shipping`    | boolean  | No       |
 | `quantity`    | number   | No       |
 | `photo`       | string   | No       |
+
+| Body       | Type   | Required |
+| ---------- | ------ | -------- |
+| `email`    | string | Yes      |
+| `password` | string | Yes      |
+
+- chercher un produit dans la BDD  
+  api/product/:productId  
+  Method : GET
