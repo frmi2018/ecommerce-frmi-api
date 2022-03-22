@@ -62,11 +62,6 @@ Lorem
 | `quantity`    | number   | No       |
 | `photo`       | string   | No       |
 
-| Body       | Type   | Required |
-| ---------- | ------ | -------- |
-| `email`    | string | Yes      |
-| `password` | string | Yes      |
-
 - chercher un produit dans la BDD  
   api/product/:productId  
   Method : GET
@@ -74,3 +69,17 @@ Lorem
 - supprimer un produit dans la BDD  
   api/product/:productId/:userId  
   Method : DELETE
+
+- mettre à jour un produit dans la BDD  
+  api/product/:productId/:userId  
+  Method : PUT
+
+| Body          | Type     | Required |
+| ------------- | -------- | -------- |
+| `name`        | string   | Yes      |
+| `description` | string   | Yes      |
+| `price`       | number   | Yes      |
+| `category`    | ObjectId | Yes      |
+| `shipping`    | boolean  | No       |
+| `quantity`    | number   | No       |
+| `photo`       | string   | No       |
