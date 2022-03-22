@@ -4,6 +4,7 @@ const fs = require("fs");
 const Product = require("../models/product");
 const { errorHandler } = require("../helpers/dbErrorHandler");
 
+// Middleware
 exports.productById = (req, res, next, id) => {
   Product.findById(id).exec((err, product) => {
     if (err || !product) {
@@ -136,4 +137,31 @@ exports.update = (req, res) => {
       res.json(result);
     });
   });
+};
+
+/*
+ * sell / arrival
+ * by sell = /products?sortBy=sold&order=desc&llimit=4
+ * by arrival = /products?sortBy=createdAt&order=desc&llimit=4
+ * if no params are sent, then all products are returned
+ */
+
+exports.list = (req, res) => {
+  let order = req.query.order ? req.query.order : "asc";
+  let sortBy = req.query.sortBy ? req.query.sortBy : "_id";
+  let limit = req.query.limit ? req.query.limit : 6;
+
+  Product.find()
+    .select("-photo")
+    .popullate("category")
+    .sort([[sortBy, order]])
+    .limit(limit)
+    .exec((err, products) => {
+      if (err) {
+        return res.status(400).json({
+          error: "Products not found",
+        });
+      }
+      res.send(products);
+    });
 };

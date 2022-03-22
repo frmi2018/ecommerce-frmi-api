@@ -161,4 +161,7 @@ Mise à jour d'une catégorie dans la bdd
 Chercher toutes les catégories dans la bdd
 ✅commit "Category updtae delete and get all"
 
+Lister des produits
+✅commit "Products by sell and arrival on request query params"
+
 ## 3️⃣ Frontend

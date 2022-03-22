@@ -86,6 +86,10 @@ Lorem
   api/product/:productId  
   Method : GET
 
+- envoyer une liste de produits  
+  api/products  
+  Method : GET
+
 - supprimer un produit dans la BDD  
   api/product/:productId/:userId  
   Method : DELETE
