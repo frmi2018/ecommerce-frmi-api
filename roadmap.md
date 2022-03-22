@@ -151,9 +151,14 @@ Supprimer un produit de la bdd
 Mise à jour d'un produit dans la bdd
 ✅commit "Product update"
 
-### 2️⃣3️⃣ Catégories RUD
+### 2️⃣5️⃣ Catégories RUD
 
 Chercher une catégorie dans la bdd
 ✅commit "Category by id and single category"
+
+Supprimer une catégorie de la bdd
+Mise à jour d'une catégorie dans la bdd
+Chercher toutes les catégories dans la bdd
+✅commit "Category updtae delete and get all"
 
 ## 3️⃣ Frontend

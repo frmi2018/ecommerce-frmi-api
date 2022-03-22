@@ -50,6 +50,22 @@ Lorem
   api/category/:categoryId  
   Method : GET
 
+- chercher toutes les catégories dans la BDD  
+  api/categories  
+  Method : GET
+
+- mettre à jour une catégorie  
+  api/category/:categoryId/:userId  
+  Method : PUT
+
+| Body   | Type   | Required |
+| ------ | ------ | -------- |
+| `name` | string | Yes      |
+
+- supprimer une catégorie de la BDD  
+  api/category/:categoryId/:userId  
+  Method : DELETE
+
 ## 🟨 Product routes
 
 - créer un produit  
