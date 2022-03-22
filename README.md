@@ -70,3 +70,7 @@ Lorem
 - chercher un produit dans la BDD  
   api/product/:productId  
   Method : GET
+
+- supprimer un produit dans la BDD  
+  api/product/:productId/:userId  
+  Method : DELETE

@@ -140,7 +140,10 @@ lodash ([Aide](https://www.npmjs.com/package/lodash))
 Vérifier les données envoyées sur la route product
 ✅commit "product validation"
 
-Chercher un produit avec son Id
-✅commit "Product by id middlleware and single product"
+Chercher un produit de la bdd
+✅commit "Product by id middleware and single product"
+
+Supprimer un produit de la bdd
+✅commit "Product delete"
 
 ## 3️⃣ Frontend
