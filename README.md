@@ -13,7 +13,7 @@ Lorem
 
 ## 🟨 User routes
 
-- inscription  
+- Inscription  
   api/user/signup  
   Method : POST
 
@@ -23,7 +23,7 @@ Lorem
 | `password` | string | Yes      |
 | `name`     | string | Yes      |
 
-- connection  
+- Connection  
   api/user/signin  
   Method : POST
 
@@ -32,13 +32,13 @@ Lorem
 | `email`    | string | Yes      |
 | `password` | string | Yes      |
 
-- déconnection  
+- Déconnection  
   api/user/signout  
   Method : GET
 
-## 🟨 Category routes
+## 🟨 Category routes CRUD
 
-- créer une catégorie  
+- Créer une catégorie  
   api/category/create/:userId  
   Method : POST
 
@@ -46,15 +46,15 @@ Lorem
 | ------ | ------ | -------- |
 | `name` | string | Yes      |
 
-- chercher une catégorie dans la BDD  
+- Lire une catégorie  
   api/category/:categoryId  
   Method : GET
 
-- chercher toutes les catégories dans la BDD  
+- Liste des catégories  
   api/categories  
   Method : GET
 
-- mettre à jour une catégorie  
+- Mettre à jour une catégorie  
   api/category/:categoryId/:userId  
   Method : PUT
 
@@ -62,13 +62,13 @@ Lorem
 | ------ | ------ | -------- |
 | `name` | string | Yes      |
 
-- supprimer une catégorie de la BDD  
+- Supprimer une catégorie  
   api/category/:categoryId/:userId  
   Method : DELETE
 
-## 🟨 Product routes
+## 🟨 Product routes CRUD
 
-- créer un produit  
+- Créer un produit  
   api/product/create/:userId  
   Method : POST
 
@@ -82,23 +82,23 @@ Lorem
 | `quantity`    | number   | No       |
 | `photo`       | string   | No       |
 
-- chercher un produit dans la BDD  
+- Lire un produit  
   api/product/:productId  
   Method : GET
 
-- chercher un produit dans la BDD + les produits de la même catégorie  
+- Lire un produit + les produits de la même catégorie  
   api/products/related/:productId  
   Method : GET
 
-- envoyer une liste de produits  
+- Liste des produits  
   api/products  
   Method : GET
 
-- supprimer un produit dans la BDD  
-  api/product/:productId/:userId  
-  Method : DELETE
+- Liste des catégories d'un produit  
+  api/products/categories  
+  Method : GET
 
-- mettre à jour un produit dans la BDD  
+- Mettre à jour un produit  
   api/product/:productId/:userId  
   Method : PUT
 
@@ -111,3 +111,7 @@ Lorem
 | `shipping`    | boolean  | No       |
 | `quantity`    | number   | No       |
 | `photo`       | string   | No       |
+
+- Supprimer un produit  
+  api/product/:productId/:userId  
+  Method : DELETE
