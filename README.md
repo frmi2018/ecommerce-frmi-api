@@ -86,6 +86,10 @@ Lorem
   api/product/:productId  
   Method : GET
 
+- chercher un produit dans la BDD + les produits de la même catégorie  
+  api/products/related/:productId  
+  Method : GET
+
 - envoyer une liste de produits  
   api/products  
   Method : GET

@@ -139,29 +139,32 @@ js ([Aide](https://www.npmjs.com/package/jsonwebtoken))
 lodash ([Aide](https://www.npmjs.com/package/lodash))  
 ✅Create product with file upload
 
-Vérifier les données envoyées sur la route product
+Vérifier les données envoyées sur la route product  
 ✅commit "product validation"
 
-Chercher un produit de la bdd
+Chercher un produit de la bdd  
 ✅commit "Product by id middleware and single product"
 
-Supprimer un produit de la bdd
+Supprimer un produit de la bdd  
 ✅commit "Product delete"
 
-Mise à jour d'un produit dans la bdd
+Mise à jour d'un produit dans la bdd  
 ✅commit "Product update"
 
 ### 2️⃣5️⃣ Catégories RUD
 
-Chercher une catégorie dans la bdd
+Chercher une catégorie dans la bdd  
 ✅commit "Category by id and single category"
 
-Supprimer une catégorie de la bdd
-Mise à jour d'une catégorie dans la bdd
-Chercher toutes les catégories dans la bdd
+Supprimer une catégorie de la bdd  
+Mise à jour d'une catégorie dans la bdd  
+Chercher toutes les catégories dans la bdd  
 ✅commit "Category updtae delete and get all"
 
-Lister des produits
+Lister des produits  
 ✅commit "Products by sell and arrival on request query params"
+
+Produits connexes  
+✅commit "Related products"
 
 ## 3️⃣ Frontend
