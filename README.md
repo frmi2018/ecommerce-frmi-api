@@ -98,6 +98,10 @@ Lorem
   api/products/categories  
   Method : GET
 
+- Photo d'un produit  
+  api/product/photo/:productId  
+  Method : GET
+
 - Mettre à jour un produit  
   api/product/:productId/:userId  
   Method : PUT

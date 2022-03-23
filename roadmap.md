@@ -171,4 +171,7 @@ Afficher la liste des catégories d'un produit
 Filtres pour afficher les produits  
 ✅commit "Products filters"
 
+Afficher la photo d'un produit  
+✅commit "send product photo"
+
 ## 3️⃣ Frontend
