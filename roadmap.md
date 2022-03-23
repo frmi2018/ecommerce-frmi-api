@@ -168,4 +168,7 @@ Produits connexes
 Afficher la liste des catégories d'un produit  
 ✅commit "List product categories"
 
+Filtres pour afficher les produits  
+✅commit "Products filters"
+
 ## 3️⃣ Frontend

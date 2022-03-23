@@ -115,3 +115,15 @@ Lorem
 - Supprimer un produit  
   api/product/:productId/:userId  
   Method : DELETE
+
+- Filtres produit  
+  api/products/by/search  
+  Method : POST
+
+| Body       | Type     | Required |
+| ---------- | -------- | -------- |
+| `order`    | string   | No       |
+| `sortBy`   | string   | No       |
+| `limit`    | number   | No       |
+| `skip`     | string   | No       |
+| `findArgs` | ObjectId | No       |
