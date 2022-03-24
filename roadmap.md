@@ -177,4 +177,9 @@ Afficher la photo d'un produit
 Lire ou mettre à jour les informations d'un utilisateur  
 ✅commit "User profile read and update"
 
+Ajouter CORS (https://www.youtube.com/watch?v=irpWV4effNE)  
+📦Infos packages :  
+cors ([Aide](https://www.npmjs.com/package/cors))  
+✅commit "Installing CORS"
+
 ## 3️⃣ Frontend
