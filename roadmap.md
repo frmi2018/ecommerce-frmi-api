@@ -172,6 +172,9 @@ Filtres pour afficher les produits
 ✅commit "Products filters"
 
 Afficher la photo d'un produit  
-✅commit "send product photo"
+✅commit "Send product photo"
+
+Lire ou mettre à jour les informations d'un utilisateur  
+✅commit "User profile read and update"
 
 ## 3️⃣ Frontend

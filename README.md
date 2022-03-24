@@ -36,6 +36,14 @@ Lorem
   api/user/signout  
   Method : GET
 
+- Read User  
+  api/user/:userId  
+  Method : GET
+
+- Update user  
+  api/user/:userId  
+  Method : PUT
+
 ## 🟨 Category routes CRUD
 
 - Créer une catégorie  
