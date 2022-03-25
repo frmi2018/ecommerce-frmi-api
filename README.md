@@ -5,7 +5,7 @@
 
 ## Frontend
 
-Lorem
+https://github.com/frmi2018/ecommerce-frmi-front
 
 ## About
 
