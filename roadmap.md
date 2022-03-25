@@ -1,6 +1,6 @@
 # 🛣️ Road map
 
-Ecommerce-frmi-front / MERN project / 2021
+Ecommerce-frmi-api / MERN project / 2021
 
 #
 
@@ -150,7 +150,7 @@ Mise en place du backend sur Heroku (optionel)
 
 ✅commit "Category update / delete and get all"
 
-## produits CRUD
+## Produits CRUD
 
 🎫 Créer Schema Product
 
