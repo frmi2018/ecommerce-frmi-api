@@ -23,7 +23,7 @@ main().catch((err) => console.log(err));
 
 async function main() {
   await mongoose
-    .connect(process.env.MONGODB_URI)
+    .connect(process.env.MONGODB_URI + "/ecommerce")
     .then(() => console.log("DB CONNECTED"));
 }
 
