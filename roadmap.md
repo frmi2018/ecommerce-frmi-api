@@ -210,3 +210,7 @@ Mise en place du backend sur Heroku (optionel)
 📦cors ([Doc](https://www.npmjs.com/package/cors))
 
 ✅commit "Installing CORS"
+
+🎫 Créer route pour afficher la liste des produits selon 2 critères (catégorie et titre)
+
+✅commit "Backend implementation of search" + commit front avec le même nom
